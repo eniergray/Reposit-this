@@ -1,0 +1,294 @@
+
+
+body{
+background-color: gray;
+color: #000305;
+font-size: 87.5%;
+font-family: Arial, 'lucida' 'Sans unicode';
+line-height: 1.5;
+text-align: left;
+
+}
+
+a{
+
+
+}
+
+a:link, a:visited{
+	color: #CF5C3F;
+
+}
+
+a:hover, a:active{
+	background-color: #CF5C3F;
+	color: white;
+
+}
+
+.body{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+
+
+}
+
+.mainheader img{
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+
+}
+
+.mainheader nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+
+}
+
+.mainheader nav ul{
+	list-style: none;
+	margin: 0 auto;
+
+}
+
+.mainheader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited {
+	background-color: #CF5C3F;
+	text-shadow: none; 
+}
+
+.mainheader nav ul li a {
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+
+}
+
+
+.maincontent{
+	line-height: 24px;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	/*overflow: hidden;*/
+}
+
+.content{
+	background-color: white;
+	width: 70%;
+	float: left;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+}
+
+.topcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 3% 5%;
+	margin-top: 2px;
+
+}
+
+.bottomcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 3% 5%;
+	margin-top: 2px;
+
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+.top-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 2% 3%;
+	margin: 2% 0 2% 3%;
+	
+}
+
+.middle-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 2% 3%;
+	margin: 2% 0 2% 3%;
+
+	
+}
+
+.bottom-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 2% 3%;
+    margin: 2% 0 2% 3%;
+}
+
+.mainfooter{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color: #666;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	height: 40px;
+}
+
+.mainfooter p{
+	width: 92%;
+	margin: 2%;
+	color: white;
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+
+.body{
+	width: 90%;
+	font-size: 95%;
+
+}
+
+.mainheader img{
+	width: 100%;
+
+}
+
+.mainheader nav{
+	height: 160px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+
+}
+
+.mainheader nav ul{
+	padding-left: 5;
+
+}
+
+.mainheader nav ul li {
+	width: 100%;
+	text-align: center;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+}
+
+.mainheader nav ul li a {
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+
+}
+
+
+.content{
+	width: 100%;
+	margin-top: 2%
+}
+
+.post-info{
+	display: none;
+
+}
+
+.topcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 3% 5%;
+	margin-top: 2px;
+
+}
+
+.bottomcontent{
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 3% 5%;
+	margin-top: 2px;
+
+}
+
+.top-sidebar{
+	width: 94%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 2% 3%;
+	margin: 2% 0 2% 0%;
+	
+}
+
+.middle-sidebar{
+	width: 94%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 2% 3%;
+	margin: 2% 0 2% 0%;
+
+	
+}
+
+.bottom-sidebar{
+	width: 94%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	/*-moz-border-radius: 5px;*/
+	/*-webkit-border-radius: 5px;*/
+	padding: 2% 3%;
+    margin: 2% 0 2% 0%;
+}
+
+}
+
+
+
